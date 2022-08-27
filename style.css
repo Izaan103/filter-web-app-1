@@ -1,0 +1,21 @@
+#heading{
+    font-size:25px;
+  }
+  
+  #saveImage:hover{
+  /* not working */
+      background-color:red;
+  }
+  
+  canvas{
+    /* not working */
+      animation-name:example;
+      animation-duration:4s;
+      animation-iteration-  count:infinite;
+  }
+  
+  @keyframes example {
+    /* not working */
+      from{box-shadow: 1px 1px 38px red;}
+      to{box-shadow: 1px 1px 38px yellow;}
+  }
